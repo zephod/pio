@@ -7,3 +7,4 @@ def setChannel(id,val):
 
 def getState():
     return {'channels':channels}
+
