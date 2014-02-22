@@ -1,9 +1,5 @@
 # import RPi.GPIO as GPIO
-try:
-    from lib.Adafruit_PWM_Servo_Driver import PWM
-except ImportError:
-    from lib.fake_pwm import PWM
-    print "Using fake lib"
+from lib.Adafruit_PWM_Servo_Driver import PWM
 import time
 
 channels = [0 for i in range(16)]
