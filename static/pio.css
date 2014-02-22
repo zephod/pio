@@ -1,0 +1,15 @@
+.slider .slider-handle {
+  background: #c00;
+}
+.slider .slider-selection {
+  background: rgba(250,0,0,0.5);
+}
+.channel h4 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.channel .slider {
+  margin: 0 auto;
+  display: block;
+}

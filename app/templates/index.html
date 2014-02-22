@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{%block subtitle%}Control Panel{%endblock%}
+
+{%block main_content%}
+  <div class="row" id="panel"></div>
+{%endblock%}
+
+{%block scripts%}
+  {{super()}}
+  <script src="{{url_for('static', filename='pio-controlpanel.js')}}"></script>
+{%endblock%}
+
